@@ -1,0 +1,96 @@
+.searchItem {
+  border: 10px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.siImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.siDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+.siTitle {
+  font-size: 20px;
+  color: #0072c2;
+}
+.siDistance {
+  font-size: 12px;
+}
+.siTaxiOp {
+  font-size: 12px;
+  background-color: green;
+  color: white;
+  width: max-content;
+  /* max-content  only takes the content of that className/class ` where here we have width max content where the width is only covered with green color and 12px with not the  taking the full size. 
+  [ It width will be where the content end ] */
+  padding: 3px;
+  border-radius: 5px;
+}
+.siSubtitle {
+  font-weight: bold;
+  font-size: 12px;
+}
+.siCancelOp {
+  font-weight: bold;
+  font-size: 12px;
+  color: green;
+}
+.siCancelOpSubtitle {
+  font-size: 12px;
+  color: green;
+}
+.siFeature {
+  font-size: 12px;
+}
+.siDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.siCheckButton {
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius:5px;
+}
+.siTaxOp {
+  font-style: 12px;
+  color: gray;
+}
+.siDetailTexts {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.siPrice {
+  font-style: 24px;
+}
+.isRating {
+  display: flex;
+  justify-content: space-between;
+}
+.siRating > span {
+  font-weight: 500;
+}
+.siRating > button {
+  background-color: #003580;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+}
